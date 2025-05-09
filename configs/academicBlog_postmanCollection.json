@@ -1,0 +1,216 @@
+{
+  "info": {
+    "name": "academicBlog_postmanCollection",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Posts",
+      "item": [
+        {
+          "name": "Create Post",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"title\": \"Proyecto Arduino\",\n  \"description\": \"Crear un sistema con Arduino para medir temperatura.\",\n  \"course\": \"TECNOLOGIA\",\n  \"dueDate\": \"2025-06-01\"\n}"
+            },
+            "url": {
+              "raw": "http://127.0.0.1:3001/academicBlog/v1/posts/createPost",
+              "host": [
+                "127.0.0.1:3001"
+              ],
+              "path": [
+                "academicBlog",
+                "v1",
+                "posts",
+                "createPost"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Get All Posts",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": null,
+            "url": {
+              "raw": "http://127.0.0.1:3001/academicBlog/v1/posts/getPosts",
+              "host": [
+                "127.0.0.1:3001"
+              ],
+              "path": [
+                "academicBlog",
+                "v1",
+                "posts",
+                "getPosts"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Find Posts by Filters",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"title\": \"Arduino\"\n}"
+            },
+            "url": {
+              "raw": "http://127.0.0.1:3001/academicBlog/v1/posts/findPosts",
+              "host": [
+                "127.0.0.1:3001"
+              ],
+              "path": [
+                "academicBlog",
+                "v1",
+                "posts",
+                "findPosts"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Edit Post",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"title\": \"Proyecto Arduino Editado\",\n  \"description\": \"Sistema Arduino para temperatura y humedad.\",\n  \"course\": \"TALLER\",\n  \"dueDate\": \"2025-06-10\"\n}"
+            },
+            "url": {
+              "raw": "http://127.0.0.1:3001/academicBlog/v1/posts/editPost/POST_ID_AQUI",
+              "host": [
+                "127.0.0.1:3001"
+              ],
+              "path": [
+                "academicBlog",
+                "v1",
+                "posts",
+                "editPost",
+                "POST_ID_AQUI"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Delete Post",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": null,
+            "url": {
+              "raw": "http://127.0.0.1:3001/academicBlog/v1/posts/deletePost/POST_ID_AQUI",
+              "host": [
+                "127.0.0.1:3001"
+              ],
+              "path": [
+                "academicBlog",
+                "v1",
+                "posts",
+                "deletePost",
+                "POST_ID_AQUI"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Comments",
+      "item": [
+        {
+          "name": "Create Comment",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"author\": \"John Doe\",\n  \"content\": \"Gran aporte al curso de tecnolog\\u00eda.\"\n}"
+            },
+            "url": {
+              "raw": "http://127.0.0.1:3001/academicBlog/v1/comments/createComment/POST_ID_AQUI",
+              "host": [
+                "127.0.0.1:3001"
+              ],
+              "path": [
+                "academicBlog",
+                "v1",
+                "comments",
+                "createComment",
+                "POST_ID_AQUI"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Get Comments for Post",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": null,
+            "url": {
+              "raw": "http://127.0.0.1:3001/academicBlog/v1/comments/getPostComments/POST_ID_AQUI",
+              "host": [
+                "127.0.0.1:3001"
+              ],
+              "path": [
+                "academicBlog",
+                "v1",
+                "comments",
+                "getPostComments",
+                "POST_ID_AQUI"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    }
+  ]
+}

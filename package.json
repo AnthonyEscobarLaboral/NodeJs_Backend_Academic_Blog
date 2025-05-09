@@ -1,0 +1,41 @@
+{
+  "name": "nodejs_backend_academic_blog",
+  "version": "1.0.0",
+  "description": "🔍 El proyecto consiste en crear un blog de aprendizaje donde se publicarán las actividades de los tres cursos del\r área técnica. Este blog servirá como un registro organizado de los trabajos y proyectos de aprendizaje,\r accesible para cualquier visitante. Las publicaciones serán gestionadas únicamente desde el Backend, mientras\r que los visitantes podrán interactuar agregando comentarios desde el Frontend sin necesidad de crear una\r cuenta.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnthonyEscobarLaboral/NodeJs_Backend_Academic_Blog.git"
+  },
+  "keywords": [],
+  "author": "Anthony Josue Escobar Ponce",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/AnthonyEscobarLaboral/NodeJs_Backend_Academic_Blog/issues"
+  },
+  "homepage": "https://github.com/AnthonyEscobarLaboral/NodeJs_Backend_Academic_Blog#readme",
+  "dependencies": {
+    "argon2": "^0.43.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "express-rate-limit": "^7.5.0",
+    "express-validator": "^7.2.1",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.14.2",
+    "morgan": "^1.10.0",
+    "nodejs_backend_academic_blog": "file:",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
