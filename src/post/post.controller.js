@@ -61,7 +61,7 @@ export const findPosts = async (req, res) => {
     try {
         const { limit = 10, from = 0 } = req.query;
         const query = { status: true };
-        const { pid, course, dueDate,creationDate, title } = req.body;
+        const { pid, course, dueDate, creationDate, title } = req.body;
 
         let filterParameter = { ...query };
 
@@ -95,6 +95,14 @@ export const findPosts = async (req, res) => {
                 .skip(Number(from))
                 .limit(Number(limit))
         ]);
+
+        if (total === 0) {
+            return res.status(200).json({
+                success: true,
+                message: "No posts were found found"
+            });
+        }
+
 
         return res.status(200).json({
             success: true,

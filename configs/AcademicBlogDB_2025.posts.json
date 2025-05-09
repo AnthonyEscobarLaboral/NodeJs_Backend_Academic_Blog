@@ -1,0 +1,162 @@
+[{
+  "_id": {
+    "$oid": "681d749dde55f67a9494108f"
+  },
+  "title": "deleted Proyecto Arduino Editado",
+  "description": "Sistema Arduino para temperatura y humedad.",
+  "course": "TALLER",
+  "dueDate": {
+    "$date": "2025-06-10T00:00:00.000Z"
+  },
+  "status": false,
+  "createdAt": {
+    "$date": "2025-05-09T03:21:01.440Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-09T03:27:52.260Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "681d786b11c7f67754547b53"
+  },
+  "title": "Proyecto Almacenadora",
+  "description": "Crear un sistema web para administrar una almacenadora en linea por el adminisrador",
+  "course": "TALLER",
+  "dueDate": {
+    "$date": "2025-05-28T00:00:00.000Z"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-05-09T03:37:15.208Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-09T03:37:15.208Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "681d792bd4e143a058f4e153"
+  },
+  "title": "Sistema de Reservas para Canchas",
+  "description": "Desarrollar una aplicación MERN para administrar reservas, pagos y control de acceso a una cancha deportiva.",
+  "course": "TALLER",
+  "dueDate": {
+    "$date": "2025-06-05T00:00:00.000Z"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-05-09T03:40:27.315Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-09T03:40:27.315Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "681d793ad4e143a058f4e155"
+  },
+  "title": "Inventario de Herramientas con QR",
+  "description": "Crear un sistema web con escaneo QR para gestionar el inventario de herramientas de un taller.",
+  "course": "PRACTICA SUPERVISADA",
+  "dueDate": {
+    "$date": "2025-06-12T00:00:00.000Z"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-05-09T03:40:42.485Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-09T03:40:42.485Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "681d7944d4e143a058f4e157"
+  },
+  "title": "deleted Estudio Comparativo de Frameworks Frontend",
+  "description": "Investigar las diferencias, ventajas y desventajas entre React, Vue y Angular.",
+  "course": "TECNOLOGIA",
+  "dueDate": {
+    "$date": "2025-05-30T00:00:00.000Z"
+  },
+  "status": false,
+  "createdAt": {
+    "$date": "2025-05-09T03:40:52.491Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-09T03:53:01.398Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "681d794dd4e143a058f4e159"
+  },
+  "title": "Sistema de Biblioteca Escolar",
+  "description": "Diseñar y desarrollar una plataforma para la gestión de préstamos, devoluciones y reportes bibliográficos.",
+  "course": "TALLER",
+  "dueDate": {
+    "$date": "2025-06-01T00:00:00.000Z"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-05-09T03:41:01.993Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-09T03:41:01.993Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "681d7959d4e143a058f4e15b"
+  },
+  "title": "Aplicación de Registro de Visitas con Backend",
+  "description": "Construir una app MERN para registrar visitas en una empresa con roles y JWT.",
+  "course": "PRACTICA SUPERVISADA",
+  "dueDate": {
+    "$date": "2025-06-08T00:00:00.000Z"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-05-09T03:41:13.427Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-09T03:41:13.427Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "681d7962d4e143a058f4e15d"
+  },
+  "title": "Investigación sobre el estado actual de la Web 3.0",
+  "description": "Realizar un informe detallado sobre el impacto, uso y riesgos de la Web 3.0 en el desarrollo web moderno.",
+  "course": "TECNOLOGIA",
+  "dueDate": {
+    "$date": "2025-06-03T00:00:00.000Z"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-05-09T03:41:22.187Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-09T03:41:22.187Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "681d7c6da65dc95f33553e9a"
+  },
+  "title": "Desarrollo de un Portal de Notas Académicas",
+  "description": "Crear una plataforma web donde los docentes puedan subir calificaciones y los estudiantes consultarlas. Debe incluir autenticación por roles.",
+  "course": "TALLER",
+  "dueDate": {
+    "$date": "2025-06-10T00:00:00.000Z"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-05-09T03:54:21.114Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-09T03:54:21.114Z"
+  }
+}]

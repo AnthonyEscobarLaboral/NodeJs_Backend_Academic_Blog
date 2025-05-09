@@ -1,0 +1,68 @@
+[{
+  "_id": {
+    "$oid": "681d76a3de55f67a949410ac"
+  },
+  "post": {
+    "$oid": "681d749dde55f67a9494108f"
+  },
+  "author": "John Doe",
+  "content": "Gran aporte al curso de tecnología.",
+  "status": true,
+  "createdAt": {
+    "$date": "2025-05-09T03:29:39.286Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-09T03:29:39.286Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "681d7b6ba65dc95f33553e7a"
+  },
+  "post": {
+    "$oid": "681d794dd4e143a058f4e159"
+  },
+  "author": "Carlos Gómez",
+  "content": "Muy buen enfoque para mejorar la gestión escolar. Espero que puedas compartir más detalles sobre la implementación.",
+  "status": true,
+  "createdAt": {
+    "$date": "2025-05-09T03:50:03.793Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-09T03:50:03.793Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "681d7b77a65dc95f33553e7e"
+  },
+  "post": {
+    "$oid": "681d7959d4e143a058f4e15b"
+  },
+  "author": "María Rodríguez",
+  "content": "Gran trabajo, la integración de roles en la app es muy útil. Estoy interesada en saber más sobre las medidas de seguridad implementadas.",
+  "status": true,
+  "createdAt": {
+    "$date": "2025-05-09T03:50:15.224Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-09T03:50:15.224Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "681d7b86a65dc95f33553e82"
+  },
+  "post": {
+    "$oid": "681d7962d4e143a058f4e15d"
+  },
+  "author": "José Martínez",
+  "content": "Interesante investigación. Me gustaría saber más sobre los riesgos relacionados con la adopción masiva de la Web 3.0.",
+  "status": true,
+  "createdAt": {
+    "$date": "2025-05-09T03:50:30.737Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-09T03:50:30.737Z"
+  }
+}]
